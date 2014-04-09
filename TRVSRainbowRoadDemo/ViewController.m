@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "TRVSRainbowEffect.h"
+#import "TRVSRainbowRoad.h"
 #import "View.h"
 
 @interface ViewController ()
 
-@property (strong, nonatomic) TRVSRainbowEffect *effect;
+@property (strong, nonatomic) TRVSRainbowRoad *effect;
 @property (strong, nonatomic) View *view;
 
 @end
@@ -24,7 +24,7 @@
 - (void)loadView {
     self.view = View.new;
     
-    self.effect = [[TRVSRainbowEffect alloc] initWithLabel:self.view.effectLabel];
+    self.effect = [[TRVSRainbowRoad alloc] initWithLabel:self.view.effectLabel];
     [self.effect resume];
     
     [self.view.resumeButton addTarget:self.effect action:@selector(resume) forControlEvents:UIControlEventTouchUpInside];

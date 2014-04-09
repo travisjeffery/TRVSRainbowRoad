@@ -1,5 +1,5 @@
 //
-//  TRVSRainbowEffect.h
+//  TRVSRainbowRoad.h
 //  RainbowLabelDemo
 //
 //  Created by Travis Jeffery on 4/7/14.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TRVSRainbowEffect : NSObject
+@interface TRVSRainbowRoad : NSObject
 
 - (instancetype)initWithLabel:(UILabel *)label;
 

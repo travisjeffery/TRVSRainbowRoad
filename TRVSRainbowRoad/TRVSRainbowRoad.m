@@ -1,12 +1,12 @@
 //
-//  TRVSRainbowEffect.m
+//  TRVSRainbowRoad.m
 //  RainbowLabelDemo
 //
 //  Created by Travis Jeffery on 4/7/14.
 //  Copyright (c) 2014 Travis Jeffery. All rights reserved.
 //
 
-#import "TRVSRainbowEffect.h"
+#import "TRVSRainbowRoad.h"
 
 static inline CGFloat HueUsingIndex(NSInteger index) {
     return 10 * index % 360 / 360.f;
@@ -16,7 +16,7 @@ static inline UIColor *ColorWithHue(CGFloat hue) {
     return [UIColor colorWithHue:hue saturation:1.f brightness:1.f alpha:1.f];
 }
 
-@interface TRVSRainbowEffect ()
+@interface TRVSRainbowRoad ()
 
 @property (strong, nonatomic) UILabel *label;
 @property (strong, nonatomic) CADisplayLink *displayLink;
@@ -25,7 +25,7 @@ static inline UIColor *ColorWithHue(CGFloat hue) {
 
 @end
 
-@implementation TRVSRainbowEffect
+@implementation TRVSRainbowRoad
 
 #pragma mark - Public
 

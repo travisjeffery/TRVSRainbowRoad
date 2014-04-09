@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322FFAAB18F53EAE006147A0 /* TRVSRainbowRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 322FFAAA18F53EAE006147A0 /* TRVSRainbowRoad.m */; };
 		32FF84B718F293E500E6E854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF84B618F293E500E6E854 /* Foundation.framework */; };
 		32FF84B918F293E500E6E854 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF84B818F293E500E6E854 /* CoreGraphics.framework */; };
 		32FF84BB18F293E500E6E854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF84BA18F293E500E6E854 /* UIKit.framework */; };
 		32FF84D618F293E500E6E854 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF84D518F293E500E6E854 /* XCTest.framework */; };
 		32FF84D718F293E500E6E854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF84B618F293E500E6E854 /* Foundation.framework */; };
 		32FF84D818F293E500E6E854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FF84BA18F293E500E6E854 /* UIKit.framework */; };
-		32FF850618F3D6C200E6E854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF84F718F3D6C200E6E854 /* AppDelegate.m */; };
-		32FF850718F3D6C200E6E854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FF84F818F3D6C200E6E854 /* Main.storyboard */; };
-		32FF850818F3D6C200E6E854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32FF84FA18F3D6C200E6E854 /* InfoPlist.strings */; };
-		32FF850918F3D6C200E6E854 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FF84FC18F3D6C200E6E854 /* Images.xcassets */; };
-		32FF850A18F3D6C200E6E854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF84FD18F3D6C200E6E854 /* main.m */; };
-		32FF850B18F3D6C200E6E854 /* TRVSRainbowEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF84FF18F3D6C200E6E854 /* TRVSRainbowEffect.m */; };
-		32FF850D18F3D6C200E6E854 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF850318F3D6C200E6E854 /* View.m */; };
-		32FF850E18F3D6C200E6E854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF850518F3D6C200E6E854 /* ViewController.m */; };
+		32FF852818F4FCAD00E6E854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF851818F4FCAD00E6E854 /* AppDelegate.m */; };
+		32FF852918F4FCAD00E6E854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FF851918F4FCAD00E6E854 /* Main.storyboard */; };
+		32FF852B18F4FCAD00E6E854 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FF851D18F4FCAD00E6E854 /* Images.xcassets */; };
+		32FF852C18F4FCAD00E6E854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF851E18F4FCAD00E6E854 /* main.m */; };
+		32FF852E18F4FCAD00E6E854 /* TRVSRainbowRoadDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32FF852118F4FCAD00E6E854 /* TRVSRainbowRoadDemo-Info.plist */; };
+		32FF852F18F4FCAD00E6E854 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF852418F4FCAD00E6E854 /* View.m */; };
+		32FF853018F4FCAD00E6E854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF852618F4FCAD00E6E854 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +34,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		32FF84B318F293E500E6E854 /* TRVSRainbowEffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRVSRainbowEffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322FFAA918F53EAE006147A0 /* TRVSRainbowRoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVSRainbowRoad.h; sourceTree = "<group>"; };
+		322FFAAA18F53EAE006147A0 /* TRVSRainbowRoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVSRainbowRoad.m; sourceTree = "<group>"; };
+		32FF84B318F293E500E6E854 /* TRVSRainbowRoadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRVSRainbowRoadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FF84B618F293E500E6E854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32FF84B818F293E500E6E854 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		32FF84BA18F293E500E6E854 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		32FF84D418F293E500E6E854 /* TRVSRainbowEffectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRVSRainbowEffectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FF84D418F293E500E6E854 /* TRVSRainbowRoadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRVSRainbowRoadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FF84D518F293E500E6E854 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		32FF84F618F3D6C200E6E854 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		32FF84F718F3D6C200E6E854 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		32FF84F918F3D6C200E6E854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32FF84FB18F3D6C200E6E854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		32FF84FC18F3D6C200E6E854 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		32FF84FD18F3D6C200E6E854 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32FF84FE18F3D6C200E6E854 /* TRVSRainbowEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVSRainbowEffect.h; sourceTree = "<group>"; };
-		32FF84FF18F3D6C200E6E854 /* TRVSRainbowEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVSRainbowEffect.m; sourceTree = "<group>"; };
-		32FF850018F3D6C200E6E854 /* TRVSRainbowEffectDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TRVSRainbowEffectDemo-Info.plist"; sourceTree = "<group>"; };
-		32FF850118F3D6C200E6E854 /* TRVSRainbowEffectDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TRVSRainbowEffectDemo-Prefix.pch"; sourceTree = "<group>"; };
-		32FF850218F3D6C200E6E854 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
-		32FF850318F3D6C200E6E854 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
-		32FF850418F3D6C200E6E854 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32FF850518F3D6C200E6E854 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32FF851718F4FCAD00E6E854 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32FF851818F4FCAD00E6E854 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32FF851A18F4FCAD00E6E854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FF851C18F4FCAD00E6E854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32FF851D18F4FCAD00E6E854 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32FF851E18F4FCAD00E6E854 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32FF852118F4FCAD00E6E854 /* TRVSRainbowRoadDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TRVSRainbowRoadDemo-Info.plist"; sourceTree = "<group>"; };
+		32FF852218F4FCAD00E6E854 /* TRVSRainbowRoadDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TRVSRainbowRoadDemo-Prefix.pch"; sourceTree = "<group>"; };
+		32FF852318F4FCAD00E6E854 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		32FF852418F4FCAD00E6E854 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		32FF852518F4FCAD00E6E854 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32FF852618F4FCAD00E6E854 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +80,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		322FFAA818F53EAE006147A0 /* TRVSRainbowRoad */ = {
+			isa = PBXGroup;
+			children = (
+				322FFAA918F53EAE006147A0 /* TRVSRainbowRoad.h */,
+				322FFAAA18F53EAE006147A0 /* TRVSRainbowRoad.m */,
+			);
+			path = TRVSRainbowRoad;
+			sourceTree = "<group>";
+		};
 		32FF84AA18F293E500E6E854 = {
 			isa = PBXGroup;
 			children = (
-				32FF84F518F3D6C200E6E854 /* TRVSRainbowEffectDemo */,
-				32FF84F418F3D6AA00E6E854 /* TRVSRainbowEffect */,
+				322FFAA818F53EAE006147A0 /* TRVSRainbowRoad */,
+				32FF851618F4FCAD00E6E854 /* TRVSRainbowRoadDemo */,
 				32FF84B518F293E500E6E854 /* Frameworks */,
 				32FF84B418F293E500E6E854 /* Products */,
 			);
@@ -93,8 +102,8 @@
 		32FF84B418F293E500E6E854 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32FF84B318F293E500E6E854 /* TRVSRainbowEffectDemo.app */,
-				32FF84D418F293E500E6E854 /* TRVSRainbowEffectDemoTests.xctest */,
+				32FF84B318F293E500E6E854 /* TRVSRainbowRoadDemo.app */,
+				32FF84D418F293E500E6E854 /* TRVSRainbowRoadDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,40 +119,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		32FF84F418F3D6AA00E6E854 /* TRVSRainbowEffect */ = {
+		32FF851618F4FCAD00E6E854 /* TRVSRainbowRoadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				32FF851718F4FCAD00E6E854 /* AppDelegate.h */,
+				32FF851818F4FCAD00E6E854 /* AppDelegate.m */,
+				32FF851918F4FCAD00E6E854 /* Main.storyboard */,
+				32FF851B18F4FCAD00E6E854 /* InfoPlist.strings */,
+				32FF851D18F4FCAD00E6E854 /* Images.xcassets */,
+				32FF851E18F4FCAD00E6E854 /* main.m */,
+				32FF852118F4FCAD00E6E854 /* TRVSRainbowRoadDemo-Info.plist */,
+				32FF852218F4FCAD00E6E854 /* TRVSRainbowRoadDemo-Prefix.pch */,
+				32FF852318F4FCAD00E6E854 /* View.h */,
+				32FF852418F4FCAD00E6E854 /* View.m */,
+				32FF852518F4FCAD00E6E854 /* ViewController.h */,
+				32FF852618F4FCAD00E6E854 /* ViewController.m */,
 			);
-			path = TRVSRainbowEffect;
-			sourceTree = "<group>";
-		};
-		32FF84F518F3D6C200E6E854 /* TRVSRainbowEffectDemo */ = {
-			isa = PBXGroup;
-			children = (
-				32FF84F618F3D6C200E6E854 /* AppDelegate.h */,
-				32FF84F718F3D6C200E6E854 /* AppDelegate.m */,
-				32FF84F818F3D6C200E6E854 /* Main.storyboard */,
-				32FF84FA18F3D6C200E6E854 /* InfoPlist.strings */,
-				32FF84FC18F3D6C200E6E854 /* Images.xcassets */,
-				32FF84FD18F3D6C200E6E854 /* main.m */,
-				32FF84FE18F3D6C200E6E854 /* TRVSRainbowEffect.h */,
-				32FF84FF18F3D6C200E6E854 /* TRVSRainbowEffect.m */,
-				32FF850018F3D6C200E6E854 /* TRVSRainbowEffectDemo-Info.plist */,
-				32FF850118F3D6C200E6E854 /* TRVSRainbowEffectDemo-Prefix.pch */,
-				32FF850218F3D6C200E6E854 /* View.h */,
-				32FF850318F3D6C200E6E854 /* View.m */,
-				32FF850418F3D6C200E6E854 /* ViewController.h */,
-				32FF850518F3D6C200E6E854 /* ViewController.m */,
-			);
-			path = TRVSRainbowEffectDemo;
+			path = TRVSRainbowRoadDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32FF84B218F293E500E6E854 /* TRVSRainbowEffectDemo */ = {
+		32FF84B218F293E500E6E854 /* TRVSRainbowRoadDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32FF84E518F293E500E6E854 /* Build configuration list for PBXNativeTarget "TRVSRainbowEffectDemo" */;
+			buildConfigurationList = 32FF84E518F293E500E6E854 /* Build configuration list for PBXNativeTarget "TRVSRainbowRoadDemo" */;
 			buildPhases = (
 				32FF84AF18F293E500E6E854 /* Sources */,
 				32FF84B018F293E500E6E854 /* Frameworks */,
@@ -153,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = TRVSRainbowEffectDemo;
+			name = TRVSRainbowRoadDemo;
 			productName = RainbowLabelDemo;
-			productReference = 32FF84B318F293E500E6E854 /* TRVSRainbowEffectDemo.app */;
+			productReference = 32FF84B318F293E500E6E854 /* TRVSRainbowRoadDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		32FF84D318F293E500E6E854 /* TRVSRainbowEffectDemoTests */ = {
+		32FF84D318F293E500E6E854 /* TRVSRainbowRoadDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32FF84E818F293E500E6E854 /* Build configuration list for PBXNativeTarget "TRVSRainbowEffectDemoTests" */;
+			buildConfigurationList = 32FF84E818F293E500E6E854 /* Build configuration list for PBXNativeTarget "TRVSRainbowRoadDemoTests" */;
 			buildPhases = (
 				32FF84D018F293E500E6E854 /* Sources */,
 				32FF84D118F293E500E6E854 /* Frameworks */,
@@ -171,9 +171,9 @@
 			dependencies = (
 				32FF84DA18F293E500E6E854 /* PBXTargetDependency */,
 			);
-			name = TRVSRainbowEffectDemoTests;
+			name = TRVSRainbowRoadDemoTests;
 			productName = RainbowLabelDemoTests;
-			productReference = 32FF84D418F293E500E6E854 /* TRVSRainbowEffectDemoTests.xctest */;
+			productReference = 32FF84D418F293E500E6E854 /* TRVSRainbowRoadDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +190,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 32FF84AE18F293E500E6E854 /* Build configuration list for PBXProject "TRVSRainbowEffectDemo" */;
+			buildConfigurationList = 32FF84AE18F293E500E6E854 /* Build configuration list for PBXProject "TRVSRainbowRoadDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -203,8 +203,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32FF84B218F293E500E6E854 /* TRVSRainbowEffectDemo */,
-				32FF84D318F293E500E6E854 /* TRVSRainbowEffectDemoTests */,
+				32FF84B218F293E500E6E854 /* TRVSRainbowRoadDemo */,
+				32FF84D318F293E500E6E854 /* TRVSRainbowRoadDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,9 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FF850918F3D6C200E6E854 /* Images.xcassets in Resources */,
-				32FF850718F3D6C200E6E854 /* Main.storyboard in Resources */,
-				32FF850818F3D6C200E6E854 /* InfoPlist.strings in Resources */,
+				32FF852B18F4FCAD00E6E854 /* Images.xcassets in Resources */,
+				32FF852E18F4FCAD00E6E854 /* TRVSRainbowRoadDemo-Info.plist in Resources */,
+				32FF852918F4FCAD00E6E854 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,11 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FF850D18F3D6C200E6E854 /* View.m in Sources */,
-				32FF850A18F3D6C200E6E854 /* main.m in Sources */,
-				32FF850618F3D6C200E6E854 /* AppDelegate.m in Sources */,
-				32FF850B18F3D6C200E6E854 /* TRVSRainbowEffect.m in Sources */,
-				32FF850E18F3D6C200E6E854 /* ViewController.m in Sources */,
+				32FF853018F4FCAD00E6E854 /* ViewController.m in Sources */,
+				32FF852F18F4FCAD00E6E854 /* View.m in Sources */,
+				322FFAAB18F53EAE006147A0 /* TRVSRainbowRoad.m in Sources */,
+				32FF852818F4FCAD00E6E854 /* AppDelegate.m in Sources */,
+				32FF852C18F4FCAD00E6E854 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,24 +254,24 @@
 /* Begin PBXTargetDependency section */
 		32FF84DA18F293E500E6E854 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 32FF84B218F293E500E6E854 /* TRVSRainbowEffectDemo */;
+			target = 32FF84B218F293E500E6E854 /* TRVSRainbowRoadDemo */;
 			targetProxy = 32FF84D918F293E500E6E854 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		32FF84F818F3D6C200E6E854 /* Main.storyboard */ = {
+		32FF851918F4FCAD00E6E854 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				32FF84F918F3D6C200E6E854 /* Base */,
+				32FF851A18F4FCAD00E6E854 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		32FF84FA18F3D6C200E6E854 /* InfoPlist.strings */ = {
+		32FF851B18F4FCAD00E6E854 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				32FF84FB18F3D6C200E6E854 /* en */,
+				32FF851C18F4FCAD00E6E854 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -355,9 +355,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TRVSRainbowEffectDemo/TRVSRainbowEffectDemo-Prefix.pch";
-				INFOPLIST_FILE = "TRVSRainbowEffectDemo/TRVSRainbowEffectDemo-Info.plist";
-				PRODUCT_NAME = TRVSRainbowEffectDemo;
+				GCC_PREFIX_HEADER = "TRVSRainbowRoadDemo/TRVSRainbowRoadDemo-Prefix.pch";
+				INFOPLIST_FILE = "TRVSRainbowRoadDemo/TRVSRainbowRoadDemo-Info.plist";
+				PRODUCT_NAME = TRVSRainbowRoadDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -368,9 +368,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TRVSRainbowEffectDemo/TRVSRainbowEffectDemo-Prefix.pch";
-				INFOPLIST_FILE = "TRVSRainbowEffectDemo/TRVSRainbowEffectDemo-Info.plist";
-				PRODUCT_NAME = TRVSRainbowEffectDemo;
+				GCC_PREFIX_HEADER = "TRVSRainbowRoadDemo/TRVSRainbowRoadDemo-Prefix.pch";
+				INFOPLIST_FILE = "TRVSRainbowRoadDemo/TRVSRainbowRoadDemo-Info.plist";
+				PRODUCT_NAME = TRVSRainbowRoadDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -391,7 +391,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "RainbowLabelDemoTests/TRVSRainbowEffectDemoTests-Info.plist";
-				PRODUCT_NAME = TRVSRainbowEffectDemoTests;
+				PRODUCT_NAME = TRVSRainbowRoadDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -409,7 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RainbowLabelDemo/RainbowLabelDemo-Prefix.pch";
 				INFOPLIST_FILE = "RainbowLabelDemoTests/TRVSRainbowEffectDemoTests-Info.plist";
-				PRODUCT_NAME = TRVSRainbowEffectDemoTests;
+				PRODUCT_NAME = TRVSRainbowRoadDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -418,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32FF84AE18F293E500E6E854 /* Build configuration list for PBXProject "TRVSRainbowEffectDemo" */ = {
+		32FF84AE18F293E500E6E854 /* Build configuration list for PBXProject "TRVSRainbowRoadDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32FF84E318F293E500E6E854 /* Debug */,
@@ -427,21 +427,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32FF84E518F293E500E6E854 /* Build configuration list for PBXNativeTarget "TRVSRainbowEffectDemo" */ = {
+		32FF84E518F293E500E6E854 /* Build configuration list for PBXNativeTarget "TRVSRainbowRoadDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32FF84E618F293E500E6E854 /* Debug */,
 				32FF84E718F293E500E6E854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		32FF84E818F293E500E6E854 /* Build configuration list for PBXNativeTarget "TRVSRainbowEffectDemoTests" */ = {
+		32FF84E818F293E500E6E854 /* Build configuration list for PBXNativeTarget "TRVSRainbowRoadDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32FF84E918F293E500E6E854 /* Debug */,
 				32FF84EA18F293E500E6E854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
